@@ -17,11 +17,19 @@ on two elements, and  then add additional CSS properties
 
 .list ul {
     list-style-type: none;
-    padding-left: 1em;
+    padding: 0 1em 0 1em;
 }
 
 .shop {
-    border: 2px dotted black;
+    border: 2px solid black;
+    box-shadow: 5px 5px;
+    margin: .5em;
     width: 30%;
+    background-color: #FFFFA5;
 }
 
+.shopname {
+    font-weight: bold;
+    font-size: larger;
+    border-bottom: 2px solid grey;
+}

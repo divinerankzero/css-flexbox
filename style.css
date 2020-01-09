@@ -5,7 +5,21 @@ on two elements, and  then add additional CSS properties
 .pageHeader {
     display: flex;
     justify-content: center;
-    margin: 10px;
+    align-items: center;
+    background: #1abc9c;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    height: 350px;
+    text-shadow: 5px 5px black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://www.thefreshcoffeecompany.com/uploads/optimized/uploads/63/FCC-Header-Images_Premium-Coffee_a12e44e3210bc53d16e237a7c4555e81.jpg");
+    background-size: auto;
+}
+
+h1 {
+    display
 }
 
 .list {
@@ -24,7 +38,11 @@ on two elements, and  then add additional CSS properties
     border: 2px solid black;
     box-shadow: 5px 5px;
     margin: .5em;
-    width: 30%;
+    width: 15em;
+    background-color: #E9EFFD;
+}
+
+.shop:hover {
     background-color: #FFFFA5;
 }
 

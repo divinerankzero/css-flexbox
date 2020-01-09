@@ -1,0 +1,22 @@
+/* The learning objective for this practice exercise is to use display:flex 
+on two elements, and  then add additional CSS properties
+ to achieve a desired layout. */
+
+.pageHeader {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop {
+    border: 2px dotted black;
+    width: 30%;
+}
+

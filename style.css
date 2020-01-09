@@ -15,6 +15,11 @@ on two elements, and  then add additional CSS properties
     justify-content: space-evenly;
 }
 
+.list ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
 .shop {
     border: 2px dotted black;
     width: 30%;

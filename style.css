@@ -18,9 +18,9 @@ on two elements, and  then add additional CSS properties
     background-size: auto;
 }
 
-h1 {
+/* h1 {
     display
-}
+} */
 
 .list {
     display: flex;
